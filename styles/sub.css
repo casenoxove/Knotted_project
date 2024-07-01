@@ -1,0 +1,293 @@
+html,body {
+    width: 1920px;
+    overflow-x: hidden;
+    background-color: #FDFAF7;
+    font-family: "Noto Sans KR", sans-serif;
+}
+header {}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav h1 {
+    display: flex;
+    align-items: center;
+}
+header nav h1 a {}
+header nav h1 a img {
+    width: 100px;
+}
+header nav .gnb {
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}
+header nav .gnb > li {
+    margin-left: 70px;
+}
+header nav .gnb > li:nth-child(1) {
+    margin-left: 0;
+}
+header nav .gnb > li a {
+    font-weight: 700;
+}
+header nav .gnb > li > .sub {
+    display: none;
+}
+header nav .gnb > li > .sub li {}
+header nav .gnb > li > .sub li a {}
+header nav .lnb {
+    display: flex;
+}
+header nav .lnb li {
+    margin-right: 70px;
+}
+header nav .lnb li:nth-child(2) {
+    margin-right: 0;
+}
+header nav .lnb li a {
+    font-weight: 700;
+    color: #AAA;
+}
+main {}
+main .one {
+    position: relative;
+}
+main .one p {}
+main .one p img {}
+main .one h2 {
+    position: absolute;
+    left: 42%; top: 44%;
+    font-size: 3rem;
+    font-weight: 700;
+}
+main .two {
+    padding-top: 35px;
+    display: flex;
+}
+main .two .left {
+    padding-left: 310px;
+}
+main .two .left .title {
+    margin-bottom: 35px;
+}
+main .two .left .title a {
+    color: #808080;
+}
+main .two .left .title a span {
+    color: #000;
+    font-weight: 700;
+}
+main .two .left p {}
+main .two .left > p img {
+    width: 500px;
+}
+main .two .left .small_size {
+    display: flex;
+    margin-top: 30px;
+}
+main .two .left .small_size p {
+    margin-right: 20px;
+}
+main .two .left .small_size p img {}
+main .two .right {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+main .two .right .title {}
+main .two .right .title .top_title {}
+main .two .right .title .top_title h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+main .two .right .title .top_title p {
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+}
+main .two .right .title .top_title p::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 250%;
+    background-color: #E0E0E0;
+    width: 728px; height: 1px;
+}
+main .two .right .title .info_title {
+    margin-top: 85px;
+}
+main .two .right .title .info_title ul {
+    position: relative;
+}
+main .two .right .title .info_title ul li {
+    font-size: 0.825rem;
+    line-height: 2.2;
+    font-weight: 300;
+    color: #808080;
+}
+main .two .right .title .info_title ul li::after {
+    position: absolute;
+    left: 0; bottom: -22%;
+    content: '';
+    background-color: #E0E0E0;
+    width: 728px; height: 1px;
+}
+main .two .right .title .info_title ul li em {
+    font-weight: 700;
+    font-size: 0.825rem;
+}
+main .two .right .title .count {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    position: relative;
+}
+main .two .right .title .count h3 {
+    font-weight: 700;
+}
+main .two .right .title .count .count_number {
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+}
+main .two .right .title .count .count_number::after {
+    position: absolute;
+    left: 0; bottom: -100%;
+    content: '';
+    background-color: #E0E0E0;
+    width: 728px; height: 1px;
+}
+main .two .right .title .count .count_number .pm  {
+    display: flex;
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+main .two .right .title .count .count_number .number {
+    margin-left: 20px;
+}
+main .two .right .title .count .count_number .number:first-child {
+    margin: 0;
+}
+main .two .right .title .count_number p em {
+    margin-left: 30px;
+}
+main .two .right .title .price {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+main .two .right .title .price p {
+    font-size: 1.25rem;
+}
+main .two .right .title .price h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+main .two .right .title .user_button {
+    margin-top: 50px;
+}
+main .two .right .title .user_button button {
+    padding: 18px 100px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+main .two .right .title .user_button #user_buy {
+    background-color: #FFEC9F;
+    margin-left: 55px;
+}
+main .two .right .title .user_button #user_cart {
+    margin-left: 30px;
+}
+main .link {
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+}
+main .link a {
+    margin-left: 180px;
+}
+main .link a::after {
+    position: absolute;
+    left: 16%; bottom: 50px;
+    content: '';
+    background-color: #E0E0E0;
+    width: 1330px; height: 1px;
+}
+main .link a:first-child {
+    margin: 0;
+    font-weight: 700;
+}
+main .info_page {
+    text-align: center;
+}
+main .info_page img {}
+footer {
+    background-image: url(../images/footer.png);
+    height: 1531px;
+    text-align: center;
+    margin-top: 200px;
+}
+footer .title {}
+footer .title h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 100px;
+}
+footer .title p {
+    margin: 80px 0;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+footer button {
+    padding: 25px 56px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #FFEC9F;
+    font-size: 2rem;
+    letter-spacing: -2px;
+}
+footer .info {
+    text-align: left;
+    padding-left: 148px;
+    display: flex;
+    margin-top: 100px;
+}
+footer .info .left {}
+footer .info .left h3 {
+    margin: 30px 0;
+    font-weight: 700;
+}
+footer .info .left p {
+    line-height: 2;
+}
+footer .info .right {}
+footer .info .right h3 {
+    margin: 30px 0;
+    font-weight: 700;
+}
+footer .info .right .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .info .right .icons p {
+    margin-bottom: 20px;
+}
+footer .info .right .icons p a {}
+footer .info .right .icons p img {
+    margin-right: 10px;
+}
+footer > p {
+    text-align: left;
+    padding-left: 148px;
+    color: #AAA;
+    margin-top: 150px;
+}
